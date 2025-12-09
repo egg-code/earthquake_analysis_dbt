@@ -1,0 +1,14 @@
+earthquake_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: ep-autumn-hall-a1sskzm8.ap-southeast-1.aws.neon.tech
+      user: neondb_owner
+      password: npg_Z2ih1qpKHusN
+      dbname: neondb
+      schema: analytics
+      port: 5432
+      threads: 4
+      sslmode: require
+      
