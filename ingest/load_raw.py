@@ -133,6 +133,3 @@ class L:
     
             conn.commit()  # Explicit commit
             print(f"COPY succeeded. Verify: SELECT count(*) FROM {self.schema}.{self.table};")
-
-
-
